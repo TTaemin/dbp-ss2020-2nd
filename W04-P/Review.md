@@ -33,6 +33,17 @@ process_create.php에
 
 ※ html 태그로 테이블로 만들어줌
  -> 위에 $author_info를 <tr>로 묶어주면 세로로나옴
+      
+
+### ★ html 태그
+
+※ 이전의 
+echo '성공했습니다. <a href="index.php">돌아가기</a>';
+
+대신에
+header('Location: author.php');
+사용함.
+      -> 이는 문제가 없으면 author.php로 바로 보내줌
 
 
 ### ★ update
