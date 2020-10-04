@@ -1,7 +1,38 @@
 # ▶ 2주차 과제 리뷰 ◀
 
-### ★ update
+### ★ index
 
+※ index에서 (isset($_GET['id']))과 같이 id가 있어야 밑의 쿼리가 동작이 됨.
+
+※ $query = "SELECT * FROM topic LEFT JOIN author ON topic.author_id = author.id WHERE
+      topic.id={$filtered_id}";
+        -> 쿼리를 이렇게 바꿔줘야 left Join이 가능함.
+
+※ 소스코드 보려면 앞에 view-source를 붙여주면 됨.
+
+
+### ★ create
+
+※ create.php에서 작성한
+  $select_form = '<select name = "author_id">';
+  while ($row = mysqli_fetch_array($result)) {
+    $select_form .= '<option value="'.$row['id'].'">'.$row['name'].'</option>';
+  }
+    $select_form .= '</select>';
+코드가
+<?= $select_form ?> 으로 들어가게 됨.
+
+※ 하지만 저장정보가 실제로 나오지 않음
+process_create.php에 
+'author_id' => mysqli_real_escape_string($link, $_POST['author_id'])  와
+'{$filtered['author_id']}' ( <- $query에 저장 )
+        ->이렇게 저장정보를 등록해야 나옴
+
+
+### ★ 테이블 생성
+
+※ html 태그로 테이블로 만들어줌
+ -> 위에 $author_info를 <tr>로 묶어주면 세로로나옴
 
 
 ### ★ update
