@@ -43,7 +43,8 @@ echo '성공했습니다. <a href="index.php">돌아가기</a>';
 대신에
 header('Location: author.php');
 사용함.
-      -> 이는 문제가 없으면 author.php로 바로 보내줌
+ 
+ -> 이는 문제가 없으면 author.php로 바로 보내줌
 
 
 ### ★ update
