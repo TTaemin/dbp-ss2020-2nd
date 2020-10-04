@@ -6,7 +6,7 @@
 
 ※ $query = "SELECT * FROM topic LEFT JOIN author ON topic.author_id = author.id WHERE
       topic.id={$filtered_id}";
-        -> 쿼리를 이렇게 바꿔줘야 left Join이 가능함.
+-> 쿼리를 이렇게 바꿔줘야 left Join이 가능함.
 
 ※ 소스코드 보려면 앞에 view-source를 붙여주면 됨.
 
