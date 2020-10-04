@@ -53,8 +53,7 @@ header('Location: author.php');
 
 ※ update버튼 만들기
 author.php 파일에
-$author_info .= '<td><a href="author.php?id='.$filtered['id'].'">update</a></th>';
-와 html부분에 <th>update</th>를 삽입.
+$author_info .= '<td><a href="author.php?id='.$filtered['id'].'">update</a></th>'; 와 html부분에 <th>update</th>를 삽입.
 
 ※ update_author를 작동 시키려면 
 process_update_author 파일을 따로 만들어서
