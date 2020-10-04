@@ -6,6 +6,7 @@
 
 ※ $query = "SELECT * FROM topic LEFT JOIN author ON topic.author_id = author.id WHERE
       topic.id={$filtered_id}";
+
 -> 쿼리를 이렇게 바꿔줘야 left Join이 가능함.
 
 ※ 소스코드 보려면 앞에 view-source를 붙여주면 됨.
@@ -26,7 +27,8 @@
 process_create.php에 
 'author_id' => mysqli_real_escape_string($link, $_POST['author_id'])  와
 '{$filtered['author_id']}' ( <- $query에 저장 )
-        ->이렇게 저장정보를 등록해야 나옴
+
+->이렇게 저장정보를 등록해야 나옴
 
 
 ### ★ 테이블 생성
