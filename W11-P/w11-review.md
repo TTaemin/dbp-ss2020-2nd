@@ -103,7 +103,7 @@ select * from ( select * from employees order by rownum desc ) where rownum = 1;
 
 접속종료가 되어서 실행이 되질 않습니다.
 
-DEPARTMENT 테이블로 과제를 하였는데, 과제 실행시에도 접속종료가 되었습니다...
+DEPARTMENTS 테이블로 과제를 하였는데, 과제 실행시에도 접속종료가 되었습니다...
 
 그래서 과제 동영상대신 과제 실행코드와(W11-P안에 위치) 오류 난 화면 캡쳐이미지 첨부합니다!
 
