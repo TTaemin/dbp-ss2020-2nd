@@ -84,6 +84,10 @@ select * from ( select * from employees order by rownum desc ) where rownum = 1;
 
 과제 실행시에도 접속종료가 되었습니다...
 
+그래서 동영상영상대신 오류 난 화면 캡쳐이미지 첨부합니다!
+
+![오루류ㅠㅠ](https://user-images.githubusercontent.com/70924137/99268238-3a044400-2868-11eb-953b-aa128f58c34c.JPG)
+
 
 
 
