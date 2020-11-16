@@ -60,7 +60,21 @@ commit 전에 예전 상태로 되돌리려면 rollback;
 
 commit한다음에 rollback을 해야한다면 백업해야함.
 
-### 오류발생
+### 오류발생1
+
+처음에 커넥션시에 커넥션이 안되는 오류가 발생하였습니다.
+
+이때, 라이브러리의 버전을 바꿨더니 커넥션이 되었습니다.
+
+![오류발생](https://user-images.githubusercontent.com/70924137/99268674-d595b480-2868-11eb-8d48-8eca33d23ae0.JPG)
+
+![라이브러리 바꿈](https://user-images.githubusercontent.com/70924137/99268702-de868600-2868-11eb-83c8-451ee098f4dc.JPG)
+
+![커넥션 성공](https://user-images.githubusercontent.com/70924137/99268744-e514fd80-2868-11eb-8990-a76de1df06e1.JPG)
+
+
+
+### 오류발생2
 
 sqldeveloper에서 
 
@@ -77,7 +91,7 @@ select * from ( select * from employees order by rownum desc ) where rownum = 1;
 이클립스에서 실행시에도 206번만 출력됩니다.
 
 
-### 오류발생2
+### 오류발생3
 
 마지막에 리펙토링 하니
 
