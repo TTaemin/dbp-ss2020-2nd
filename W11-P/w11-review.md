@@ -68,9 +68,15 @@ commit한다음에 rollback을 해야한다면 백업해야함.
 
 ![오류발생](https://user-images.githubusercontent.com/70924137/99268674-d595b480-2868-11eb-8d48-8eca33d23ae0.JPG)
 
+* 오류발생
+
 ![라이브러리 바꿈](https://user-images.githubusercontent.com/70924137/99268702-de868600-2868-11eb-83c8-451ee098f4dc.JPG)
 
+* 라이브러리 변경
+
 ![커넥션 성공](https://user-images.githubusercontent.com/70924137/99268744-e514fd80-2868-11eb-8990-a76de1df06e1.JPG)
+
+* 커넥션 성공
 
 
 
