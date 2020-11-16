@@ -43,6 +43,10 @@ jdbc로 사용했던 rs, stmt, conn을 close로 닫아야함. --> 메모리 반�
 
 Test라는 객체를 만들고 객체의 select라는 메소드를 동작시켜서 출력할 수 있게 함
 
+### 리펙토링
+
+위에서 묶어서 사용가능
+
 
 ### 트랜젝션
 
@@ -72,9 +76,6 @@ select * from ( select * from employees order by rownum desc ) where rownum = 1;
 
 이클립스에서 실행시에도 206번만 출력됩니다.
 
-### 리펙토링
-
-위에서 묶어서 사용가능
 
 ### 오류발생2
 
