@@ -56,7 +56,7 @@ try 안에 conn = DBConnection.getConnection();
 
 저는 Delete를 넣어서 데이터가 삭제될 수 있도록 하였습니다.
 
-index.html에 <li><a href="employees/delete.html">직원 삭제</a></li> 를 넣어 인덱스에 직원삭제가 뜨게 하였고
+index.html에 "<li><a href="employees/delete.html">직원 삭제</a></li>" 를 넣어 인덱스에 직원삭제가 뜨게 하였고
 
 거기에 delete.html과 Delete.jsp를 연동시켜 삭제가 작동되게 하였습니다.
 
